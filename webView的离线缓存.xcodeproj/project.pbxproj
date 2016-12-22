@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BDE4F563BAD70EC29F5DDB /* libPods-webView的离线缓存.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4327EBD7269360D8D6D80A /* libPods-webView的离线缓存.a */; };
+		E1D5BAB01E0A7A7B006C303C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BAAF1E0A7A7B006C303C /* main.m */; };
+		E1D5BAB31E0A7A7B006C303C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BAB21E0A7A7B006C303C /* AppDelegate.m */; };
+		E1D5BAB61E0A7A7B006C303C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BAB51E0A7A7B006C303C /* ViewController.m */; };
+		E1D5BAB91E0A7A7B006C303C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D5BAB71E0A7A7B006C303C /* Main.storyboard */; };
+		E1D5BABB1E0A7A7B006C303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D5BABA1E0A7A7B006C303C /* Assets.xcassets */; };
+		E1D5BABE1E0A7A7B006C303C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D5BABC1E0A7A7B006C303C /* LaunchScreen.storyboard */; };
+		E1D5BB461E0B9FD4006C303C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB411E0B9FD4006C303C /* Reachability.m */; };
+		E1D5BB471E0B9FD4006C303C /* SCYCacheURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB431E0B9FD4006C303C /* SCYCacheURLProtocol.m */; };
+		E1D5BB481E0B9FD4006C303C /* SCYWebViewCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB451E0B9FD4006C303C /* SCYWebViewCacheModel.m */; };
+		E1D5BB4E1E0BA017006C303C /* NSString+CDEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB4B1E0BA017006C303C /* NSString+CDEncryption.m */; };
+		E1D5BB4F1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB4D1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.m */; };
+		E1D5BB521E0BA072006C303C /* SCYLoanHTMLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5BB511E0BA072006C303C /* SCYLoanHTMLCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50497F5254D1325DAAF34671 /* Pods-webView的离线缓存.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webView的离线缓存.release.xcconfig"; path = "Pods/Target Support Files/Pods-webView的离线缓存/Pods-webView的离线缓存.release.xcconfig"; sourceTree = "<group>"; };
+		9CCA12B0776B9FFA6CD8551B /* Pods-webView的离线缓存.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webView的离线缓存.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webView的离线缓存/Pods-webView的离线缓存.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4327EBD7269360D8D6D80A /* libPods-webView的离线缓存.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webView的离线缓存.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D5BAAB1E0A7A7B006C303C /* webView的离线缓存.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webView的离线缓存.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D5BAAF1E0A7A7B006C303C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1D5BAB11E0A7A7B006C303C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1D5BAB21E0A7A7B006C303C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1D5BAB41E0A7A7B006C303C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1D5BAB51E0A7A7B006C303C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1D5BAB81E0A7A7B006C303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1D5BABA1E0A7A7B006C303C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1D5BABD1E0A7A7B006C303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1D5BABF1E0A7A7B006C303C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D5BB401E0B9FD4006C303C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E1D5BB411E0B9FD4006C303C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E1D5BB421E0B9FD4006C303C /* SCYCacheURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYCacheURLProtocol.h; sourceTree = "<group>"; };
+		E1D5BB431E0B9FD4006C303C /* SCYCacheURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYCacheURLProtocol.m; sourceTree = "<group>"; };
+		E1D5BB441E0B9FD4006C303C /* SCYWebViewCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYWebViewCacheModel.h; sourceTree = "<group>"; };
+		E1D5BB451E0B9FD4006C303C /* SCYWebViewCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYWebViewCacheModel.m; sourceTree = "<group>"; };
+		E1D5BB4A1E0BA017006C303C /* NSString+CDEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CDEncryption.h"; sourceTree = "<group>"; };
+		E1D5BB4B1E0BA017006C303C /* NSString+CDEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDEncryption.m"; sourceTree = "<group>"; };
+		E1D5BB4C1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+MutableCopyWorkaround.h"; sourceTree = "<group>"; };
+		E1D5BB4D1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+MutableCopyWorkaround.m"; sourceTree = "<group>"; };
+		E1D5BB501E0BA072006C303C /* SCYLoanHTMLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYLoanHTMLCache.h; sourceTree = "<group>"; };
+		E1D5BB511E0BA072006C303C /* SCYLoanHTMLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYLoanHTMLCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1D5BAA81E0A7A7B006C303C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDE4F563BAD70EC29F5DDB /* libPods-webView的离线缓存.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEDFD8E0CF5052A85ADCC09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CCA12B0776B9FFA6CD8551B /* Pods-webView的离线缓存.debug.xcconfig */,
+				50497F5254D1325DAAF34671 /* Pods-webView的离线缓存.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FFA3B4E102FA9A3E423C801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4327EBD7269360D8D6D80A /* libPods-webView的离线缓存.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D5BAA21E0A7A7B006C303C = {
+			isa = PBXGroup;
+			children = (
+				E1D5BAAD1E0A7A7B006C303C /* webView的离线缓存 */,
+				E1D5BAAC1E0A7A7B006C303C /* Products */,
+				1EEDFD8E0CF5052A85ADCC09 /* Pods */,
+				8FFA3B4E102FA9A3E423C801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1D5BAAC1E0A7A7B006C303C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5BAAB1E0A7A7B006C303C /* webView的离线缓存.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1D5BAAD1E0A7A7B006C303C /* webView的离线缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5BB491E0BA017006C303C /* categary */,
+				E1D5BB3F1E0B9FD4006C303C /* LoanCacheTool */,
+				E1D5BAB41E0A7A7B006C303C /* ViewController.h */,
+				E1D5BAB51E0A7A7B006C303C /* ViewController.m */,
+				E1D5BAB71E0A7A7B006C303C /* Main.storyboard */,
+				E1D5BAAE1E0A7A7B006C303C /* Supporting Files */,
+			);
+			path = "webView的离线缓存";
+			sourceTree = "<group>";
+		};
+		E1D5BAAE1E0A7A7B006C303C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5BAB11E0A7A7B006C303C /* AppDelegate.h */,
+				E1D5BAB21E0A7A7B006C303C /* AppDelegate.m */,
+				E1D5BABA1E0A7A7B006C303C /* Assets.xcassets */,
+				E1D5BABC1E0A7A7B006C303C /* LaunchScreen.storyboard */,
+				E1D5BABF1E0A7A7B006C303C /* Info.plist */,
+				E1D5BAAF1E0A7A7B006C303C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1D5BB3F1E0B9FD4006C303C /* LoanCacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5BB501E0BA072006C303C /* SCYLoanHTMLCache.h */,
+				E1D5BB511E0BA072006C303C /* SCYLoanHTMLCache.m */,
+				E1D5BB401E0B9FD4006C303C /* Reachability.h */,
+				E1D5BB411E0B9FD4006C303C /* Reachability.m */,
+				E1D5BB421E0B9FD4006C303C /* SCYCacheURLProtocol.h */,
+				E1D5BB431E0B9FD4006C303C /* SCYCacheURLProtocol.m */,
+				E1D5BB441E0B9FD4006C303C /* SCYWebViewCacheModel.h */,
+				E1D5BB451E0B9FD4006C303C /* SCYWebViewCacheModel.m */,
+			);
+			name = LoanCacheTool;
+			path = Tools/LoanCacheTool;
+			sourceTree = "<group>";
+		};
+		E1D5BB491E0BA017006C303C /* categary */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5BB4A1E0BA017006C303C /* NSString+CDEncryption.h */,
+				E1D5BB4B1E0BA017006C303C /* NSString+CDEncryption.m */,
+				E1D5BB4C1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.h */,
+				E1D5BB4D1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.m */,
+			);
+			name = categary;
+			path = Tools/categary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1D5BAAA1E0A7A7B006C303C /* webView的离线缓存 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D5BAC21E0A7A7B006C303C /* Build configuration list for PBXNativeTarget "webView的离线缓存" */;
+			buildPhases = (
+				4B401645A012E6BE859FF017 /* [CP] Check Pods Manifest.lock */,
+				E1D5BAA71E0A7A7B006C303C /* Sources */,
+				E1D5BAA81E0A7A7B006C303C /* Frameworks */,
+				E1D5BAA91E0A7A7B006C303C /* Resources */,
+				6549CCBA0F41D6A0D8A48DA6 /* [CP] Embed Pods Frameworks */,
+				566C7D049F88CDBADBFD4256 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "webView的离线缓存";
+			productName = "webView的离线缓存";
+			productReference = E1D5BAAB1E0A7A7B006C303C /* webView的离线缓存.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1D5BAA31E0A7A7B006C303C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱同海";
+				TargetAttributes = {
+					E1D5BAAA1E0A7A7B006C303C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E1D5BAA61E0A7A7B006C303C /* Build configuration list for PBXProject "webView的离线缓存" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1D5BAA21E0A7A7B006C303C;
+			productRefGroup = E1D5BAAC1E0A7A7B006C303C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1D5BAAA1E0A7A7B006C303C /* webView的离线缓存 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1D5BAA91E0A7A7B006C303C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D5BABE1E0A7A7B006C303C /* LaunchScreen.storyboard in Resources */,
+				E1D5BABB1E0A7A7B006C303C /* Assets.xcassets in Resources */,
+				E1D5BAB91E0A7A7B006C303C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B401645A012E6BE859FF017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		566C7D049F88CDBADBFD4256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webView的离线缓存/Pods-webView的离线缓存-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6549CCBA0F41D6A0D8A48DA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webView的离线缓存/Pods-webView的离线缓存-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1D5BAA71E0A7A7B006C303C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D5BAB61E0A7A7B006C303C /* ViewController.m in Sources */,
+				E1D5BAB31E0A7A7B006C303C /* AppDelegate.m in Sources */,
+				E1D5BB481E0B9FD4006C303C /* SCYWebViewCacheModel.m in Sources */,
+				E1D5BAB01E0A7A7B006C303C /* main.m in Sources */,
+				E1D5BB4E1E0BA017006C303C /* NSString+CDEncryption.m in Sources */,
+				E1D5BB4F1E0BA017006C303C /* NSURLRequest+MutableCopyWorkaround.m in Sources */,
+				E1D5BB461E0B9FD4006C303C /* Reachability.m in Sources */,
+				E1D5BB521E0BA072006C303C /* SCYLoanHTMLCache.m in Sources */,
+				E1D5BB471E0B9FD4006C303C /* SCYCacheURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1D5BAB71E0A7A7B006C303C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1D5BAB81E0A7A7B006C303C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1D5BABC1E0A7A7B006C303C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1D5BABD1E0A7A7B006C303C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1D5BAC01E0A7A7B006C303C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1D5BAC11E0A7A7B006C303C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1D5BAC31E0A7A7B006C303C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCA12B0776B9FFA6CD8551B /* Pods-webView的离线缓存.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webView的离线缓存/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.9188.text.webView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1D5BAC41E0A7A7B006C303C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50497F5254D1325DAAF34671 /* Pods-webView的离线缓存.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webView的离线缓存/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.9188.text.webView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1D5BAA61E0A7A7B006C303C /* Build configuration list for PBXProject "webView的离线缓存" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D5BAC01E0A7A7B006C303C /* Debug */,
+				E1D5BAC11E0A7A7B006C303C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D5BAC21E0A7A7B006C303C /* Build configuration list for PBXNativeTarget "webView的离线缓存" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D5BAC31E0A7A7B006C303C /* Debug */,
+				E1D5BAC41E0A7A7B006C303C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1D5BAA31E0A7A7B006C303C /* Project object */;
+}
