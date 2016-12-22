@@ -24,8 +24,8 @@
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://blog.csdn.net/horisea/article/details/52191573"]]];
     
     
-    
-    [NSURLProtocol unregisterClass:[SCYCacheURLProtocol class]];
+    /// 不需要缓存的url，取消注册，即不回走urlprotocol机制了
+//    [NSURLProtocol unregisterClass:[SCYCacheURLProtocol class]];
 }
 
 @end
